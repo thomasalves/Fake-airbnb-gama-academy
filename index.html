@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Airbnb</title>
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="navbar-container">
+    <img id="logo" src="./assets/airbnb-2.svg"></img>
+    <div class="navbar-links">
+      <a class="navbar-link">Hospede em sua acomodação</a>
+      <a class="navbar-link">Hospede uma experiência</a>
+      <a class="navbar-link">Ajuda</a>
+      <a class="navbar-register">Cadastre-se</a>
+    </div>
+  </div>
+</div>
+</header>
+
+
+<div class="input">
+<div  class="search-container">
+  <div class="filter-container">
+    <label id="localizacao" class="filter-label" for="filter">LOCALIZAÇÃO</label>
+    <input id="filter1" class="filter-input" placeholder="Para onde você vai?"></input> <!--input de filtragem-->
+  </div>
+  <div id="check" class="filter-container">
+    <label class="filter-label" for="filter">CHECK-IN/CHECKOUT</label>
+    <input id="filter2" class="filter-input" placeholder="Insira as datas"></input> <!--input de filtragem-->
+  </div>
+  <div id="hospedes" class="filter-container">
+    <label class="filter-label" for="filter">HÓSPEDES</label>
+    <input id="filter3" class="filter-input" placeholder="Insira o número de hóspedes"></input> <!--input de filtragem-->
+  </div>
+  <button id='search-button' class="search-button"><i class="fas fa-search"></i> Buscar</button>
+</div>
+</div>
+
+  <div id="root"></div>
+
+
+  <div class="pagination-wrapper">
+    <div class="pagination">
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
