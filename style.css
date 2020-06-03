@@ -71,8 +71,9 @@ img{
     background: rgb(0, 0, 0);
   }
 
-  #root {
-    max-width: 90%;
+  .card-wrapper {
+
+    max-width: 80%;
     margin: 0 auto;
   }
 
@@ -88,18 +89,18 @@ img{
     max-width: 100%;
   }
 
-  .container {
+  .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     margin-top: 5rem;
     flex-direction: row;
   }
-  .type{
+  .tipo{
     margin-top: 10px;
     padding: 2%;
   }
-  .price{
+  .preco{
     font-weight: bold;
     margin-top: 10px;
     margin-left: 5px;
@@ -211,3 +212,51 @@ img{
   border: 2px solid rgb(73, 73, 73);
   padding-top: 0.3rem;
 }
+
+
+
+button{
+  border: none;
+  color: #f15d76;
+  width: 50px;
+  background-color: black;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.5rem;
+
+}
+
+.pagination{
+
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  @-moz-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+  }
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+  #fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+    }
